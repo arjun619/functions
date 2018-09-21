@@ -1,2 +1,1 @@
-# functions
-how to use functions in C++
+Python programs for beginners to get started.
