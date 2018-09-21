@@ -1,0 +1,32 @@
+def addition(fno,sno):
+    fno=int(input("enter the first number "))
+    sno=int(input("enter the second number "))
+    print(fno + sno)
+
+def subtraction(fno,sno):
+    fno=int(input("enter the first number "))
+    sno=int(input("enter the second number "))
+    print(fno-sno)
+
+def multiplication(fno,sno):
+    fno=int(input("enter the first number "))
+    sno=int(input("enter the second number "))
+    print(fno*sno)
+
+def division(fno,sno):
+    fno=int(input("enter the first number "))
+    sno=int(input("enter the second number "))
+    print(fno/sno)
+
+calculator= input("what do you want to do ")
+if calculator== 'addition':
+    addition(3,4)
+elif calculator== 'subtraction':
+    subtraction(3,5)
+elif calculator=='multiplication':
+    multiplication(4,6)
+elif calculator=='division':
+    division(4,2)
+else:
+    print("sorry i cant do that")
+    
